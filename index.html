@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Consultoria de imagem personalizado para destacar sua melhor versão. Transforme seu estilo, melhore sua presença e conquiste confiança com orientação profissional.">
+    <meta name="keywords"
+        content="consultoria de imagem, analise de imagem pessoal, personal stylist, estilo profissional, moda e estilo, transformação de imagem, autoconfiança, branding pessoal, Análise de cores, dress code, guarda-roupa cápsula, etiqueta visual, consultoria de moda, consultoria de estilo, identidade visual pessoal, consultoria de imagem profissional">
+    <link rel="apple-touch-icon" href="./src/IMAGE-CARD.jpg">
+    <link rel="manifest" href="./src/IMAGE-CARD.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="index.js" defer></script>
+    <title>Tayna Souza - Consultoria de Imagem</title>
+</head>
+
+<body>
+
+    <div class="loading" id="loading">
+        <img class="load-palet1" src="./src/paleta01.svg" alt="icone-loading">
+    </div>
+    <!-- Form -->
+    <div class="modal" id="modal">
+        <form id="formulario" class="">
+            <div id="btn-fechar">&times;</div>
+            <h2>Preencha o formulário</h2>
+            <input type="text" id="inputName" placeholder="Informe seu nome..." required>
+            <select id="select" required>
+                <option value="nenhum" selected>Selecionar</option>
+                <option value="Análise de coloração">Análise de coloração</option>
+                <option value="Análise de estilo e identidade visual">Análise de estilo e identidade visual</option>
+                <option value="Personal Styling">Personal Styling</option>
+                <option value="Closet Cleaning">Closet Cleaning</option>
+                <option value="Mentoria de Imagem Intensional Particular">Mentoria de Imagem Intensional Particular
+                </option>
+                <option value="Mentoria de Imagem Intensional em Grupo">Mentoria de Imagem Intensional em Grupo
+                </option>
+                </option>
+            </select>
+            <textarea rows="6" id="inputText" placeholder="Envie uma observação (opcional)..."></textarea>
+            <button id="submit">Agendar</button>
+        </form>
+    </div>
+
+    <!-- Contrate Ja -->
+    <div class="card-contrate hidden" id="card-contrate">
+        <div class="right">
+            <img src="./src/IMAGE-CARD.jpg" alt="foto de perfil">
+            <p>Agende uma consultoria<br> <span>E veja a transformação da sua imagem acontecer.</span>
+            </p>
+        </div>
+
+
+        <button id="btn-contato">Agendar</button>
+    </div>
+    <!-- Container Principal -->
+    <div class="container hidden" id="container">
+        <!-- Perfil -->
+        <div class="perfil">
+            <img class="image-perfil" src="./src/perfil-hero.png" alt="perfil-image">
+            <img class="logo" src="./src/LOGO.svg" alt="logo">
+        </div>
+        <!-- Faixa -->
+        <div class=" faixa">
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+            <p>&nbsp;Consultoria de imagem ●</p>
+        </div>
+        <!-- Cards Link -->
+        <div class="card-container">
+            <!-- Cards -->
+            <p class="card">Veja alguns registros de consultorias realizadas.</p>
+        </div>
+        <!-- Carrossel -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img id="image" style="object-position: top" src="./src/01.jpg"
+                        alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/02.jpg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/03.jpg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/05.jpg" alt="image-slide">
+                </div>
+                <div class="swiper-slide"><img id="image" src="./src/08.PNG" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/09.PNG" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/10.jpg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/11.jpg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/04.jpg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/06.jpg" alt="image-slide"></div>
+                <div class="swiper-slide"><img id="image" src="./src/07.jpg" alt="image-slide"></div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    <footer class="hidden" id="footer"> Tayna Souza &copy; Todos os direitos reservados.</footer>
+</body>
+
+</html>
