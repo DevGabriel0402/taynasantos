@@ -98,6 +98,9 @@ Aguardando sua resposta.`
 
     }
 
-
-
 })
+
+document.getElementById("creator").onclick = () => {
+    const url = "https://www.instagram.com/eu.gabrielvieira/";
+    window.open(url, "_blank")
+}
